@@ -4,13 +4,17 @@
 
 @mixin dark-scheme {
   /* Framework color */
-  --body-bg: var(--main-bg);
+  /*--body-bg: var(--main-bg);
   --mask-bg: rgb(68, 69, 70);
   --main-bg: rgb(27, 27, 30);
+  --main-border-color: rgb(44, 45, 45);*/
+  --body-bg: var(--main-bg);
+  --mask-bg: rgb(68, 69, 70);
+  --main-bg: rgb(7, 7, 7);
   --main-border-color: rgb(44, 45, 45);
 
   /* Common color */
-  --text-color: rgb(175, 176, 177);
+  /*--text-color: rgb(175, 176, 177);
   --text-muted-color: rgb(107, 116, 124);
   --heading-color: #cccccc;
   --blockquote-border-color: rgb(66, 66, 66);
@@ -25,6 +29,31 @@
   --card-header-bg: rgb(51, 50, 50);
   --label-color: rgb(108, 117, 125);
   --checkbox-color: rgb(118, 120, 121);
+  --checkbox-checked-color: var(--link-color);
+  --img-bg: radial-gradient(circle, rgb(22, 22, 24) 0%, rgb(32, 32, 32) 100%);
+  --shimmer-bg:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(58, 55, 55, 0.4) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );*/
+    /* Common color */
+  --text-color: rgb(175, 176, 177);
+  --text-muted-color: rgb(107, 116, 124); //text for dates
+  --heading-color: #255c9c;
+  --blockquote-border-color: rgb(66, 66, 66);
+  --blockquote-text-color: rgb(117, 117, 117);
+  --link-color: rgb(130, 2, 47);
+  --link-underline-color: rgb(130, 2, 47);
+  --button-bg: rgb(12, 7, 7); //boton
+  --btn-border-color: rgba(130, 2, 47); //border of button
+  --btn-backtotop-color: rgb(121, 12, 12);//var(--text-color);
+  --btn-backtotop-border-color: var(--btn-border-color);
+  --btn-box-shadow: var(--main-bg);
+  --card-header-bg: rgba(18, 18, 18, 0.628);
+  --label-color: rgb(130, 2, 47);
+  --checkbox-color: rgb(169, 63, 5);
   --checkbox-checked-color: var(--link-color);
   --img-bg: radial-gradient(circle, rgb(22, 22, 24) 0%, rgb(32, 32, 32) 100%);
   --shimmer-bg:
