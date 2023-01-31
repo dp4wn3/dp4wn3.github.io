@@ -19,18 +19,18 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Dp4wn3~~                       # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: A young enthusiast obsessed with cybersecurity    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+ In this blog I’ll post it some notes and writeups from HackTheBox plataform ~(+v+)~
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'dp4wn3.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: dp4wn3           # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
