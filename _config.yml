@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
  In this blog I’ll post it some notes and writeups from HackTheBox plataform ~(+v+)~
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://dp4wn3.github.io'
+url: 'https://dp4wn3.github.io/'
 
 github:
   username: dp4wn3           # change to your github username
@@ -71,7 +71,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: light
+theme_mode: dark
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
